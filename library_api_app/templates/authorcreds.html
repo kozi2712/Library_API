@@ -1,0 +1,32 @@
+{% extends 'base.html' %}
+
+{%block title%}User List{%endblock%}
+
+{%block content%}
+
+{% for message in get_flashed_messages() %}
+    <div class="alert alert-success alert-dismissible fade show" role="alert">
+        {{name}} {{message}}
+        <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
+    </div>
+{% endfor %}
+<h1>Author Credentials </h1>
+<br/>
+<table class="table table-striped table-hover">
+    <tr>
+        <td>Id: </td><td>{{our_author.id}}</td>
+    </tr>
+    <tr>
+        <td>First name: </td><td>{{our_author.first_name}}</td>
+    </tr>
+    <tr>
+        <td>Last name: </td><td>{{our_author.last_name}}</td>
+    </tr>
+    <tr>
+        <td>Birth Date: </td><td>{{our_author.birth_date}}</td>
+    </tr>
+</table>
+<a href="{{url_for('authors.update_author', author_id=our_author.id)}}" class="btn btn-primary">Modify</a>
+<a href="{{url_for('authors.delete_author', author_id=our_author.id)}}" class="btn btn-danger">Delete</a>
+
+{%endblock%}

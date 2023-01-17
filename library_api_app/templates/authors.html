@@ -1,0 +1,26 @@
+{% extends 'base.html' %}
+
+{%block title%}User List{%endblock%}
+
+{%block content%}
+
+{% for message in get_flashed_messages() %}
+    <div class="alert alert-success alert-dismissible fade show" role="alert">
+        {{name}} {{message}}
+        <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
+    </div>
+{% endfor %}
+<h1>Authors in Database: </h1>
+<br/>
+<table class="table table-striped table-hover">
+    {% for our_author in our_authors%}
+    <tr>
+        <td>{{our_author.id}}.
+             {{our_author.first_name}} {{our_author.last_name}}<a style="float:right;" href="{{url_for('authors.get_author', author_id=our_author.id)}}" class="btn btn-primary me-md-2">More</a>
+        </td>
+    </tr>
+    {% endfor %}
+</table>
+<a href="{{url_for('authors.add_author')}}" class="btn btn-success">Add Author</a>
+
+{%endblock%}

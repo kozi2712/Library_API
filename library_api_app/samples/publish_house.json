@@ -1,0 +1,72 @@
+[
+    {
+        "name": "ABE Dom Wydawniczy",
+        "city": "Warszawa",
+        "post_code": "00-095", 
+        "street":"Pl. Bankowy 4",
+        "email": "piekna.bookstore@abe.pl"
+    },
+    {
+        "name": "Biały Kruk",
+        "city": "Kraków",
+        "post_code": "30-324",
+        "street": "Szwedzka 38",
+        "email": "biuro@bialykruk.pl"
+    },
+    {
+        "name": "Edgard",
+        "city": "Warszawa",
+        "post_code": "02-511",
+        "street": "Belgijska 11",
+        "email": "sklep.edgard.com.pl"
+    },
+    {
+        "name": "Ezop",
+        "city": "Warszawa",
+        "post_code": "01-829",
+        "street": "al. Zjednoczenia 1/226",
+        "email": "redakcja@ezop.com.pl"
+    },
+    {
+        "name": "Harald",
+        "city": "Ożarów Mazowiecki",
+        "post_code": "05-850",
+        "street": "Poznańska 91",
+        "email": "m.tomaszewska@olesiejuk.pl"
+    },
+    {
+        "name": "Impuls",
+        "city": "Kraków",
+        "post_code": "30-619",
+        "street": "ul. Turniejowa 59/5",
+        "email": "impuls@impulsoficyna.com.pl"
+    },
+    {
+        "name": "Limbus",
+        "city": "Bydgoszcz",
+        "post_code": "85-050",
+        "street": "Pomorska 6",
+        "email": "ksiegarnia@limbus.com.pl"
+    },
+    {
+        "name": "Mag",
+        "city": "Warszawa",
+        "post_code": "04-082",
+        "street": "Krypska 21",
+        "email": "handel@mag.com.pl"
+    },
+    {
+        "name": "Nowa Era",
+        "city": "Warszawa",
+        "post_code": "02-305",
+        "street": "Al. Jerozolimskie 146d",
+        "email": "nowaera@nowaera.pl"
+    },
+    {
+        "name": "ODDK",
+        "city": "Gdańsk",
+        "post_code": "80-317",
+        "street": "Obrońców Westerplatte 32A",
+        "email": "oddk@oddk.pl"
+    }
+]

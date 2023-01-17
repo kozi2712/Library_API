@@ -1,0 +1,50 @@
+[{
+    "city": "Warszawa",
+    "street": "Jana Pawła 2 4",
+    "post_code": "00-001"
+},
+{
+    "city": "Kraków",
+    "street": "Piłsudzkiego 14",
+    "post_code": "34-021"
+},
+{
+    "city": "Poznań",
+    "street": "Złota 6",
+    "post_code": "65-121"
+},
+{
+    "city": "Wrocław",
+    "street": "al. Jerozolimskie 3",
+    "post_code": "21-452"
+},
+{
+    "city": "Bialy Stok",
+    "street": "Podlaska 10",
+    "post_code": "32-123"
+},
+{
+    "city": "Nowy Sącz",
+    "street": "Krakowska 3",
+    "post_code": "38-123"
+},
+{
+    "city": "Gdańsk",
+    "street": "Biała 2",
+    "post_code": "12-765"
+},
+{
+    "city": "Szczecin",
+    "street": "Krzysztofa Jerzyny 21",
+    "post_code": "28-890"
+},
+{
+    "city": "Rzeszów",
+    "street": "O. Mateusza 7",
+    "post_code": "23-573"
+},
+{
+    "city": "Bydgoszcz",
+    "street": "Jerzego 8",
+    "post_code": "43-312"
+}]
